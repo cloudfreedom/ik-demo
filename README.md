@@ -79,3 +79,8 @@ selected_assignment = st.selectbox("Select an assignment", assignments)
 st.write("You selected:", selected_assignment)
 
 ```
+
+# Run Streamlit
+```bash
+streamlit run app.py
+```
