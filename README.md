@@ -7,6 +7,12 @@ openai
 python-dotenv
 streamlit
 ```
+# create project folder
+```bash
+mkdir ik-demo
+cd ik-demo
+```
+
 # python virtual environment
 
 ```bash
@@ -18,13 +24,7 @@ python3 -m venv ik-demo
 source bin/activate
 ```
 
-# app.py
-```python
 
-from openai import OpenAI
-import streamlit as st
-import python-dotenv
-```
 # sample questions
 
 ```python
@@ -48,7 +48,7 @@ assignments = [
 ]
 ```
 
-# streamlit dropdown
+# streamlit app.py
 ```python
 import streamlit as st
 from openai import OpenAI
